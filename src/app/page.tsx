@@ -1,103 +1,133 @@
-import Image from "next/image";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="flex flex-col items-center justify-between">
+      {/* Carousel */}
+      <div className="flex flex-col items-center justify-center w-full max-w-sm p-4">
+        <Carousel>
+          <CarouselContent>
+            <CarouselItem>
+              <div className="flex items-center justify-center h-48 w-auto bg-black rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/lQNLBBFjqMk"
+                  title="TUTORIAL PENDAFTARAN ONLINE PPTQAM"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className="w-full "
+                ></iframe>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="flex items-center justify-center h-48 w-auto bg-black rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/esXqghbEKNw"
+                  title="SEKOLAH PARA JUARA | PPTQ Al-'Ashr Al-Madani"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className="w-full "
+                ></iframe>
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+      </div>
+      {/* 2 Row 4 Column */}
+      <div className="grid grid-cols-4 gap-4 mt-8">
+        {/* PPDB */}
+        <a href="/PPDB">
+          <img
+            src="/ppdb_icon_menu.svg"
+            alt="PPDB"
+            className="cursor-pointer transition-transform hover:scale-105"
+          />
+        </a>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+        {/* Gallery */}
+        <a href="">
+          <img
+            src="/gallery_icon_menu.svg"
+            alt="Gallery"
+            className="cursor-pointer transition-transform hover:scale-105"
           />
-          Learn
         </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+        {/* Kegiatan */}
+        <a href="">
+          <img
+            src="/kegiatan_icon_menu.svg"
+            alt="Kegiatan"
+            className="cursor-pointer transition-transform hover:scale-105"
           />
-          Examples
         </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+        {/* Infaq PPDB */}
+        <a href="">
+          <img
+            src="/infaq_ppdb_icon_menu.svg"
+            alt="Infaq PPDB"
+            className="cursor-pointer transition-transform hover:scale-105"
           />
-          Go to nextjs.org →
         </a>
-      </footer>
-    </div>
+        {/* Brosur */}
+        <a href="">
+          <img
+            src="/brosur_icon_menu.svg"
+            alt="Brosur"
+            className="cursor-pointer transition-transform hover:scale-105"
+          />
+        </a>
+        {/* Fasilitas */}
+        <a href="">
+          <img
+            src="/fasilitas_icon_menu.svg"
+            alt="Fasilitas"
+            className="cursor-pointer transition-transform hover:scale-105"
+          />
+        </a>
+        {/* Daftar */}
+        <a href="">
+          <img
+            src="/daftar_icon_menu.svg"
+            alt="Daftar"
+            className="cursor-pointer transition-transform hover:scale-105"
+          />
+        </a>
+        {/* Menu Lain */}
+        <a href="">
+          <img
+            src="/menu_lain_icon_menu.svg"
+            alt="Menu Lain"
+            className="cursor-pointer transition-transform hover:scale-105"
+          />
+        </a>
+      </div>
+
+      {/* h1 Roadmap Pendaftaran*/}
+      <div className="w-full max-w-sm">
+        <h1 className="font-bold text-left mt-8 text-6xl">
+          Roadmap Pendaftaran
+        </h1>
+        <p className="mt-4 text-gray-600">
+          Berikut tatacara pendaftaran memalui website pptqam.ponpes.id
+        </p>
+      </div>
+
+      {/* Footer */}
+    </main>
   );
 }
