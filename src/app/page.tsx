@@ -5,7 +5,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
@@ -52,7 +52,7 @@ export default function Home() {
       <div className="grid grid-cols-4 gap-4 mt-8">
         {/* PPDB */}
         <a href="/PPDB">
-          <img
+          <Image
             src="/ppdb_icon_menu.svg"
             alt="PPDB"
             className="cursor-pointer transition-transform hover:scale-105"
@@ -61,7 +61,7 @@ export default function Home() {
 
         {/* Gallery */}
         <a href="">
-          <img
+          <Image
             src="/gallery_icon_menu.svg"
             alt="Gallery"
             className="cursor-pointer transition-transform hover:scale-105"
@@ -69,7 +69,7 @@ export default function Home() {
         </a>
         {/* Kegiatan */}
         <a href="">
-          <img
+          <Image
             src="/kegiatan_icon_menu.svg"
             alt="Kegiatan"
             className="cursor-pointer transition-transform hover:scale-105"
@@ -77,7 +77,7 @@ export default function Home() {
         </a>
         {/* Infaq PPDB */}
         <a href="">
-          <img
+          <Image
             src="/infaq_ppdb_icon_menu.svg"
             alt="Infaq PPDB"
             className="cursor-pointer transition-transform hover:scale-105"
@@ -85,7 +85,7 @@ export default function Home() {
         </a>
         {/* Brosur */}
         <a href="">
-          <img
+          <Image
             src="/brosur_icon_menu.svg"
             alt="Brosur"
             className="cursor-pointer transition-transform hover:scale-105"
@@ -93,7 +93,7 @@ export default function Home() {
         </a>
         {/* Fasilitas */}
         <a href="">
-          <img
+          <Image
             src="/fasilitas_icon_menu.svg"
             alt="Fasilitas"
             className="cursor-pointer transition-transform hover:scale-105"
@@ -101,7 +101,7 @@ export default function Home() {
         </a>
         {/* Daftar */}
         <a href="">
-          <img
+          <Image
             src="/daftar_icon_menu.svg"
             alt="Daftar"
             className="cursor-pointer transition-transform hover:scale-105"
@@ -109,7 +109,7 @@ export default function Home() {
         </a>
         {/* Menu Lain */}
         <a href="">
-          <img
+          <Image
             src="/menu_lain_icon_menu.svg"
             alt="Menu Lain"
             className="cursor-pointer transition-transform hover:scale-105"
