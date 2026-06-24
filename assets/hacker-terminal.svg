@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="100%" height="auto">
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes matrixFall {
+      0% { transform: translateY(-280px); opacity: 0; }
+      10% { opacity: 0.8; }
+      90% { opacity: 0.8; }
+      100% { transform: translateY(350px); opacity: 0; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(360px); }
+    }
+    @keyframes systemBoot {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    .bg { fill: #080b10; stroke: #1b2433; stroke-width: 2; rx: 10; }
+    .window-header { fill: #111827; rx: 10; ry: 10; }
+    .terminal-title { font-family: 'Fira Code', monospace, Courier; font-size: 13px; fill: #9ca3af; font-weight: bold; }
+    .btn-r { fill: #ef4444; }
+    .btn-y { fill: #f59e0b; }
+    .btn-g { fill: #10b981; }
+    
+    .matrix-text {
+      font-family: monospace;
+      font-size: 11px;
+      fill: #10b981;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      letter-spacing: 4px;
+    }
+    
+    .term-text {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 13px;
+      fill: #4ade80;
+    }
+    
+    .cursor {
+      fill: #4ade80;
+      animation: blink 1s step-end infinite;
+    }
+    
+    .tag-ok { fill: #10b981; font-weight: bold; }
+    .tag-info { fill: #3b82f6; font-weight: bold; }
+    .tag-cmd { fill: #f59e0b; font-weight: bold; }
+    
+    /* Animation delays for sequential line boots */
+    .line-1 { animation: systemBoot 0.1s forwards; }
+    .line-2 { animation: systemBoot 0.1s 0.6s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; opacity: 0; }
+    .line-3 { animation: systemBoot 0.1s 1.2s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; opacity: 0; }
+    .line-4 { animation: systemBoot 0.1s 1.8s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; opacity: 0; }
+    .line-5 { animation: systemBoot 0.1s 2.4s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; opacity: 0; }
+    .line-6 { animation: systemBoot 0.1s 3.0s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; opacity: 0; }
+    .line-7 { animation: systemBoot 0.1s 3.6s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; opacity: 0; }
+    .line-8 { animation: systemBoot 0.1s 4.2s cubic-bezier(0.1, 0.8, 0.3, 1) forwards; opacity: 0; }
+    
+    /* Matrix Columns falling speeds */
+    .m-col-1 { animation: matrixFall 4.5s infinite linear; animation-delay: 0s; }
+    .m-col-2 { animation: matrixFall 6s infinite linear; animation-delay: 1.8s; }
+    .m-col-3 { animation: matrixFall 3.8s infinite linear; animation-delay: 0.8s; }
+    .m-col-4 { animation: matrixFall 5.2s infinite linear; animation-delay: 2.5s; }
+    
+    /* CRT Scanline effect */
+    .scan {
+      fill: none;
+      stroke: rgba(74, 222, 128, 0.04);
+      stroke-width: 2;
+      animation: scanline 6s infinite linear;
+    }
+  </style>
+  
+  <!-- Base Window -->
+  <rect width="850" height="360" class="bg" />
+  
+  <!-- Window Header -->
+  <path d="M 0,10 A 10,10 0 0 1 10,0 L 840,0 A 10,10 0 0 1 850,10 L 850,35 L 0,35 Z" class="window-header" />
+  <circle cx="20" cy="17" r="6" class="btn-r" />
+  <circle cx="40" cy="17" r="6" class="btn-y" />
+  <circle cx="60" cy="17" r="6" class="btn-g" />
+  <text x="425" y="22" class="terminal-title" text-anchor="middle">azhar@homelab: ~/profile</text>
+  
+  <!-- Content Area -->
+  <!-- Left Side: Interactive Logs (x: 20, y: 50) -->
+  <g transform="translate(20, 50)">
+    <!-- Line 1: Shell Command -->
+    <g class="line-1">
+      <text x="0" y="20" class="term-text"><tspan fill="#a78bfa">azhar@homelab</tspan>:<tspan fill="#38bdf8">~/profile</tspan>$ ./cyber_profile.sh --run-diagnostics</text>
+    </g>
+    
+    <!-- Line 2: Initializing -->
+    <g class="line-2">
+      <text x="0" y="45" class="term-text">[ <tspan class="tag-ok">OK</tspan> ] Initializing core systems &amp; learning modules...</text>
+    </g>
+    
+    <!-- Line 3: System details -->
+    <g class="line-3">
+      <text x="0" y="70" class="term-text">[ <tspan class="tag-info">INFO</tspan> ] Target: Azhar Muttaqien (CS &amp; CyberSecurity Student)</text>
+    </g>
+    
+    <!-- Line 4: Hard Drive Recovery -->
+    <g class="line-4">
+      <text x="0" y="95" class="term-text">[ <tspan class="tag-ok">OK</tspan> ] Starting Hard Drive Data Recovery Kernel: 100%</text>
+    </g>
+
+    <!-- Line 5: Ansible VM -->
+    <g class="line-5">
+      <text x="0" y="120" class="term-text">[ <tspan class="tag-ok">OK</tspan> ] Deploying Proxmox Homelab VMs via Ansible: DONE</text>
+    </g>
+    
+    <!-- Line 6: Zero trust -->
+    <g class="line-6">
+      <text x="0" y="145" class="term-text">[ <tspan class="tag-ok">OK</tspan> ] Cloudflare Tunnel &amp; Nextcloud Vault: Zero Trust Active</text>
+    </g>
+    
+    <!-- Line 7: Low level info -->
+    <g class="line-7">
+      <text x="0" y="170" class="term-text">[ <tspan class="tag-info">INFO</tspan> ] Reverse Engineering: from strings to silicon edits</text>
+      <text x="0" y="195" class="term-text">[ <tspan class="tag-info">INFO</tspan> ] Cryptography: Post-Quantum algorithms loaded</text>
+    </g>
+
+    <!-- Line 8: Terminal finished command -->
+    <g class="line-8">
+      <text x="0" y="225" class="term-text">[ <tspan class="tag-ok">SUCCESS</tspan> ] Profile loaded. Vault knowledge base is active!</text>
+      <text x="0" y="255" class="term-text"><tspan fill="#a78bfa">azhar@homelab</tspan>:<tspan fill="#38bdf8">~/profile</tspan>$ <rect class="cursor" x="185" y="242" width="8" height="15" /></text>
+    </g>
+  </g>
+  
+  <!-- Divider -->
+  <line x1="595" y1="35" x2="595" y2="360" stroke="#1b2433" stroke-width="2" />
+  
+  <!-- Right Side: Matrix Digital Rain Panel (x: 595 to 850) -->
+  <g transform="translate(600, 35)">
+    <!-- Mask for falling letters -->
+    <clipPath id="panel-clip">
+      <rect width="250" height="325" />
+    </clipPath>
+    
+    <g clip-path="url(#panel-clip)">
+      <!-- Matrix falling columns -->
+      <g class="m-col-1" transform="translate(15, 0)">
+        <text y="0" class="matrix-text">01101011001101011010010101011</text>
+      </g>
+      <g class="m-col-2" transform="translate(70, 0)">
+        <text y="0" class="matrix-text" fill="#4ade80">RECOVERYSECHACKKERNELVMPROXMOX</text>
+      </g>
+      <g class="m-col-3" transform="translate(130, 0)">
+        <text y="0" class="matrix-text" fill="#86efac">10100101011100010101101011010</text>
+      </g>
+      <g class="m-col-4" transform="translate(195, 0)">
+        <text y="0" class="matrix-text">ANSIBLEPROXMOXDOCKERDNSOSINT</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- CRT Scanline Overlay -->
+  <line x1="0" y1="0" x2="850" y2="0" class="scan" />
+</svg>

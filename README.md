@@ -14,6 +14,10 @@
   <i>Perjalanan belajarnya dimulai dari pertanyaan: "Apa sih software paling bagus buat recovery data, atau jangan-jangan ada pendekatan lain?"</i>
 </p>
 
+<p align="center">
+  <img src="assets/hacker-terminal.svg" alt="Hacker Terminal" width="100%" />
+</p>
+
 ---
 
 ### 🛠️ Apa yang Sedang Saya Kerjakan (Saat Ini)
@@ -110,6 +114,7 @@ Peta besar yang dibangun sendiri dari nol, dari rasa penasaran:
   <a target="_blank" href="https://www.instagram.com/azharmtq/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a target="_blank" href="mailto:azharsss457@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
   <a target="_blank" href="https://azharmtq.my.id"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" /></a>
+  <a target="_blank" href="https://azhar457.github.io/note/"><img src="https://img.shields.io/badge/Notes-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white" alt="Notes" /></a>
 </p>
 
 ---
@@ -140,3 +145,12 @@ Peta besar yang dibangun sendiri dari nol, dari rasa penasaran:
     <img alt="github-snake" src="https://raw.githubusercontent.com/Azhar457/Azhar457/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
+
+---
+
+### 🏙️ 3D Contribution City
+
+<p align="center">
+  <img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
+</p>
+
