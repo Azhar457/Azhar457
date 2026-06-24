@@ -46,6 +46,9 @@ Peta besar yang dibangun sendiri dari nol, dari rasa penasaran:
 🕵️ OSINT                  → dari Google sampai Palantir Gotham
 ```
 
+> 📓 **Semua catatan belajar saya didokumentasikan di:** [azhar457.github.io/note/](https://azhar457.github.io/note/)
+
+
 ---
 
 ### 🛠️ Tools & Stack yang Pernah Dicoba
@@ -151,6 +154,5 @@ Peta besar yang dibangun sendiri dari nol, dari rasa penasaran:
 ### 🏙️ 3D Contribution City
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
 </p>
-
