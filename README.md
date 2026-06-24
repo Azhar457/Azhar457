@@ -48,7 +48,6 @@ Peta besar yang dibangun sendiri dari nol, dari rasa penasaran:
 
 > 📓 **Semua catatan belajar saya didokumentasikan di:** [azhar457.github.io/note/](https://azhar457.github.io/note/)
 
-
 ---
 
 ### 🛠️ Tools & Stack yang Pernah Dicoba
@@ -134,7 +133,7 @@ Peta besar yang dibangun sendiri dari nol, dari rasa penasaran:
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Azhar457&theme=tokyonight" alt="Trophy Azhar457" /></a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://gh-trophy.cdnsoft.net/?username=Azhar457&theme=juicyfresh" alt="Trophy Azhar457" /></a>
 </p>
 
 ---
