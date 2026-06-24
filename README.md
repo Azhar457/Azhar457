@@ -1,173 +1,42 @@
-# Ponpes AM Frontend
+<h1>Hi 👋, I'm Azhar</h1>
+<p>Homelab and Cybersecurity Enthusiast</p>
+<h2>🚀 Languages and Tools I Use</h2>
+<p>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="42" height="42" /></a>
+<a target="_blank" href="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="42" height="42" /></a>
+<a target="_blank" href="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="42" height="42" /></a>
+<a target="_blank" href="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="42" height="42" /></a>
+<a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" style="display: inline-block;"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="42" height="42" /></a>
+<a target="_blank" href="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="42" height="42" /></a>
+<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="42" height="42" /></a>
+<a target="_blank" href="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="42" height="42" /></a>
+<a target="_blank" href="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="42" height="42" /></a></p>
+<h2>✒️ Recent Posts</h2>
+<ul>
+<li><a target="_blank" href=""></a></li>
+</ul>
 
-Ini adalah project [Next.js](https://nextjs.org) untuk website PPTQ Al-'Ashr Al-Madani.
+<h2>⚡️ Where to find me</h2>
+<p><a target="_blank" href="https://www.instagram.com/azharmtq/" style="display: inline-block;"><img src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369" alt="instagram" /></a></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=Azhar457&show_icons=true&locale=en" alt="Azhar457" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Azhar457&" alt="Azhar457" /></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Azhar457&show_icons=true&locale=en&layout=compact" alt="Azhar457" /></p>
+<p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Azhar457" alt="Azhar457" /></a></p>
 
-## Langkah Setup Setelah `git clone`
+## 🐍 GitHub Contributions Snake Game
 
-1. **Clone repository ini:**
-
-   ```bash
-   git clone https://github.com/username/frontend-ponpes-am.git
-   cd frontend-ponpes-am
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   # atau
-   yarn install
-   # atau
-   pnpm install
-   ```
-
-3. **Jalankan development server:**
-
-   ```bash
-   npm run dev
-   # atau
-   yarn dev
-   # atau
-   pnpm dev
-   ```
-
-4. **Buka di browser:**
-   - Kunjungi [http://localhost:3000](http://localhost:3000)
-
-## Tech Stack & Dependencies
-
-### Framework & Library
-
-- **Next.js 14** - React framework dengan App Router
-- **React 18** - Frontend library
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Styling framework
-
-### UI Components
-
-- **shadcn/ui** - Pre-built UI components
-- **Radix UI** - Headless UI primitives
-- **Lucide React** - Icon library
-
-### Dependencies yang Sudah Terinstall
-
-```json
-{
-  "dependencies": {
-    "@radix-ui/react-dialog": "^1.0.5",
-    "@radix-ui/react-slot": "^1.0.2",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "embla-carousel-react": "^8.0.0",
-    "lucide-react": "^0.263.1",
-    "next": "14.0.0",
-    "react": "^18.0.0",
-    "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.7"
-  }
-}
-```
-
-## Struktur Project
-
-```
-src/
-├── app/
-│   ├── page.tsx          # Homepage utama
-│   ├── layout.tsx        # Root layout
-│   └── globals.css       # Global styles
-├── components/
-│   └── ui/              # Komponen UI (shadcn/ui)
-│       ├── button.tsx
-│       ├── carousel.tsx
-│       ├── dialog.tsx
-│       └── ...
-└── lib/
-    └── utils.ts         # Utility functions
-```
-
-## Catatan Kolaborator
-
-### Setup Environment
-
-- **Node.js**: Minimal v18.17 atau lebih baru
-- **Package Manager**: Gunakan `npm` (jangan campur dengan yarn/pnpm)
-- **Editor**: VS Code dengan extension:
-  - Tailwind CSS IntelliSense
-  - TypeScript and JavaScript Language Features
-  - ES7+ React/Redux/React-Native snippets
-
-### Workflow Kolaborasi
-
-1. **Selalu pull latest changes:**
-
-   ```bash
-   git pull origin main
-   ```
-
-2. **Buat branch baru untuk fitur:**
-
-   ```bash
-   git checkout -b feature/nama-fitur
-   ```
-
-3. **Install ulang dependencies jika ada perubahan:**
-
-   ```bash
-   npm install
-   ```
-
-4. **Commit dengan pesan yang jelas:**
-   ```bash
-   git add .
-   git commit -m "feat: tambah komponen navbar"
-   ```
-
-### Aturan Koding
-
-- Gunakan **TypeScript** untuk semua file baru
-- Styling dengan **Tailwind CSS** only
-- Komponen UI pakai **shadcn/ui** yang sudah ada di `src/components/ui/`
-- File naming: **camelCase** untuk components, **kebab-case** untuk pages
-
-### Jika Ada Masalah
-
-1. **Dependency error:**
-
-   ```bash
-   rm -rf node_modules package-lock.json
-   npm install
-   ```
-
-2. **Type error:** Restart TypeScript server di VS Code (Ctrl+Shift+P → "TypeScript: Restart TS Server")
-
-3. **Styling tidak muncul:** Restart dev server (`Ctrl+C` lalu `npm run dev`)
-
-## Component Library (shadcn/ui)
-
-Komponen yang sudah tersedia:
-
-- `Button` - Tombol dengan variants
-- `Carousel` - Slider/carousel
-- `Dialog` - Modal popup
-- `Input` - Form input
-- `Card` - Container card
-
-Untuk menambah komponen baru dari shadcn/ui:
-
-```bash
-npx shadcn-ui@latest add [component-name]
-```
-
-## Deploy
-
-Untuk deploy, gunakan Vercel atau jalankan:
-
-```bash
-npm run build
-npm start
-```
-
----
-
-**❗ PENTING:** Jangan push ke `main` branch secara langsung. Selalu buat Pull Request!
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Azhar457/Azhar457/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Azhar457/Azhar457/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Azhar457/Azhar457/output/github-contribution-grid-snake.svg" />
+</picture>
